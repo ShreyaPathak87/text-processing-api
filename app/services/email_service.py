@@ -1,16 +1,11 @@
-def generate_email(name, purpose):
+def generate_email(purpose: str):
 
     return f"""
-Subject: {purpose}
-
+Subject: Regarding {purpose}
 Dear Sir/Madam,
-
-I am writing regarding {purpose}.
-
-I would appreciate your consideration.
-
-Thank you.
-
-Regards,
-{name}
-"""
+I hope this message finds you well.
+I am writing this email regarding {purpose}. Please let me know the next steps.
+Thank you for your time and consideration.
+Best regards,
+User
+""".strip()
