@@ -1,10 +1,22 @@
-[# 🚀 Text Processing API
+#  Text Processing API
 
 A FastAPI-based project that provides text processing features like summarization, translation, and email generation.
 
 ---
+# Functionalities
+* Text Summarization
 
-## ⚙️ Tech Stack
+This feature generates a short and meaningful summary from long input text. It helps extract key points while preserving the original context.
+
+* Language Translation
+
+This functionality translates input text from one language to another using a backend service. It ensures accurate and fast conversion based on the selected target language.
+
+* Email Generation
+
+This feature automatically generates well-structured emails based on user input or prompts. It creates professional content suitable for formal communication.
+
+## Tech Stack
 - Python
 - FastAPI
 - Uvicorn
@@ -60,4 +72,4 @@ DEBUG=True
 ---
 
 ## 👩‍💻 Author
-Shreya](https://drive.google.com/file/d/1fVfgsaF26LdNy-N1p9Xj17ElGsjuZIMF/view?usp=sharing)
+Shreya
