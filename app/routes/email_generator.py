@@ -8,8 +8,11 @@ router = APIRouter()
 @router.post("/generate-email")
 def email(request: EmailRequest):
 
-    logger.info("Email API called")
+    logger.info("Generate Email API called")
 
     return {
-        "email": generate_email(request.purpose)
+        "email": generate_email(
+            request.name,
+            request.purpose
+        )
     }
