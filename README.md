@@ -13,6 +13,10 @@ A FastAPI-based project that provides text processing features like summarizatio
 
 ---
 
+## 🌐 Live Demo
+https://text-processing-api-1-qmbq.onrender.com/docs
+
+---
 ## 📌 Features
 - ✂️ Text Summarization
 - 🌐 Language Translation
