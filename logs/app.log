@@ -37,3 +37,6 @@ Please select on of the supported languages:
 2026-06-24 17:55:26,199 - INFO - Translate API called
 2026-06-24 17:55:44,387 - INFO - Translate API called
 2026-06-24 17:56:07,363 - INFO - Email API called
+2026-06-25 11:30:10,345 - INFO - Summarize API called
+2026-06-25 11:31:06,171 - INFO - Translate API called
+2026-06-25 11:31:49,190 - INFO - Email API called
